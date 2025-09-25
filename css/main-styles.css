@@ -249,11 +249,15 @@ body._lock {
   max-width: 400px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  max-height: 67px;
 }
 @media (max-width: 550px) {
   .header__logo {
     display: none;
   }
+}
+.header__logo img {
+  max-height: 100%;
 }
 .header__button {
   -webkit-box-flex: 0;
