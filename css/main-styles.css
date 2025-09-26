@@ -275,6 +275,11 @@ body._lock {
   padding-top: 180px;
   padding-bottom: 32px;
 }
+@media (max-width: 767.98px) {
+  .page {
+    padding-top: 150px;
+  }
+}
 .page__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -447,6 +452,20 @@ body._lock {
 
 .content-section {
   text-align: center;
+}
+.content-section-mobile {
+  margin-bottom: 56px;
+  text-align: center;
+}
+@media (min-width: 767.98px) {
+  .content-section-mobile {
+    display: none;
+  }
+}
+@media (max-width: 767.98px) {
+  .content-section-mh {
+    display: none;
+  }
 }
 .content-section:not(:last-child) {
   margin-bottom: 40px;
